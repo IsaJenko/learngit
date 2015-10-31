@@ -1,0 +1,67 @@
+//
+//  PrefixHeader.pch
+//  SlamDunk_Demo
+//
+//  Created by jinke on 15/10/23.
+//  Copyright © 2015年 IsaJenko.github.io. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifndef __OPTIMIZE__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...) {}
+
+#endif
+
+#pragma mark - 社区
+
+#import "CommunityViewController.h"
+#import "ComTopicTableViewController.h"
+#import "ComHotViewController.h"
+#import "ComPictureTableViewController.h"
+#import "ComTopicCell.h"
+#import "ComTopicHeaderCell.h"
+#import "CommunityTopic.h"
+#import "URLs.h"
+#import "CommunityGM.h"
+#import "ComPictureCell.h"
+#import "ComPictureInfoViewController.h"
+#import "ComHotCell.h"
+#import "ComHotInfoViewController.h"
+#import "ComGMRank_id.h"
+
+#pragma mark - 资讯
+
+
+#pragma mark - 新闻
+#import "NBANEWS.h"
+#import "nbaNewsCell.h"
+#import "NewsViewController.h"
+#import "newsInfoViewController.h"
+
+
+#pragma mark - 数据管理
+#import "DataManager.h"
+
+#pragma mark - 注册&登录
+#import "LoginViewController.h"
+#import "RegisterViewController.h"
+#import "Person.h"
+#import "PersonManager.h"
+#import <sqlite3.h>
+
+#pragma mark - 第三方
+#import "UIImageView+WebCache.h"
+#import "SDCycleScrollView.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+
+
+
+#endif /* PrefixHeader_pch */
