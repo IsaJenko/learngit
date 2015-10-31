@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  MusicPlayer_OC
+//
+//  Created by LakesMac on 15/10/9.
+//  Copyright © 2015年 Lake. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kMusicListURL @"http://project.lanou3g.com/teacher/UIAPI/MusicInfoList.plist"
+
+#define kMainScreenBounds [UIScreen mainScreen].bounds
+
+#define kTintColorOrange     [UIColor colorWithRed:253/255. green:60 /255.  blue:8  /255.  alpha:1]
+//#define kTintColorGreen_0    [UIColor colorWithRed:26 /255. green:199/255.  blue:158/255.  alpha:1]
+#define kTintColorGreen_1    [UIColor colorWithRed:26 /255. green:199/255.  blue:158/255.  alpha:1]
+#define kTintColorGreen_2    [UIColor colorWithRed:19 /255. green:141/255.  blue:102/255.  alpha:1]
+#define kTintColorGreen_3    [UIColor colorWithRed:12 /255. green:84 /255.  blue:63 /255.  alpha:1]
+
+
+
+#import "Data_MusicList.h"
+#import "OnPlayingFootView.h"
+
+#endif /* PrefixHeader_pch */
