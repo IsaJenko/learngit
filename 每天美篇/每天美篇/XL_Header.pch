@@ -1,0 +1,26 @@
+//
+//  XL_Header.pch
+//  每天美篇
+//
+//  Created by lanou3g on 15/10/21.
+//  Copyright © 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef XL_Header_pch
+#define XL_Header_pch
+
+#import "ReadModel.h"
+
+#import "ViewController.h"
+#import <sqlite3.h>
+#define POST_URL @"http://api.meiriyiwen.com/v2/day?version=4&date="
+#import "BookDataManager.h"
+#import "SideSlideCell.h"
+#import "MakeTableViewController.h"
+
+#import "DKNightVersion.h"
+#import "LockController.h"
+#import "CollectTableViewController.h"
+#import <ShareSDK/ShareSDK.h>
+#import "WXApi.h"
+#endif /* XL_Header_pch */
